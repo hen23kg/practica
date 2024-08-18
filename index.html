@@ -1,0 +1,68 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- Metadatos -->
+    <title>Tienda Adidas</title>
+    <meta name="author" content="LATIFE KALAF GOOMEZ">
+    <meta name="description" content="Bienvenido a la tienda oficial de Adidas, donde encontrarás los mejores productos deportivos.">
+    <meta name="theme-color" content="#E50000"> <!-- Color de tema -->
+    
+    <!-- Metadatos para redes sociales -->
+    <meta property="og:url" content="https://github.com/hen23kg/Web.1prm.git">
+    <meta property="og:title" content="Tienda Oficial de Adidas">
+    <meta property="og:image" content="https://www.adidas.com/og-adiads-image.png"> <!-- URL de la imagen -->
+    <meta property="og:description" content="Explora la amplia gama de productos de Adidas, desde calzado hasta ropa deportiva.">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Tienda Adidas</h1>
+        <h2>LATIFE KALAF GOOMEZ</h2>
+        <nav id="nav">
+            <ul id="links">
+                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                <li><a href="#zapatillas" onclick="seleccionar(this)">ZAPATILLAS</a></li>
+                <li><a href="#mujer" onclick="seleccionar(this)">MUJER</a></li>
+                <li><a href="#hombre" onclick="seleccionar(this)">HOMBRE</a></li>
+                <li><a href="#niño" onclick="seleccionar(this)">NIÑO</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <div class="contenido">
+            <img src="og-adidas-image.png" alt="Imagen de Adidas" class="imagen">
+            <p>Descubre lo último en moda y tecnología de rendimiento.</p>
+        </div>
+    </section>
+
+    <section id="productos">
+        <h2>Productos Destacados</h2>
+        <div class="productos-container">
+            <div class="producto">
+                <img src="ultraboost mujer.jpeg" alt="Zapatillas Adidas" class="imagen-producto">
+                <h3>Zapatillas Adidas Ultraboost mujer</h3>
+                <p>Precio: $180.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="Essentials.jpeg" alt="Camiseta Adidas" class="imagen-producto">
+                <h3>Camiseta Adidas Essentials hombres</h3>
+                <p>Precio: $30.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="Tiro.jpeg" alt="Pantalones Adidas" class="imagen-producto">
+                <h3>Pantalones Adidas Tiro</h3>
+                <p>Precio: $50.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
